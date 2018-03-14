@@ -1,0 +1,35 @@
+#menuHaut{
+	background-color: black;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+#simplon{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	margin-left: -6%;
+}
+#nav{
+	margin-top: 20px;
+	margin-right: 5%;
+	width: 65%;
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	text-decoration: none;
+}
+#nav li a {
+	display: inline-flex;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	font-family: 'Rammetto One', cursive;
+	font-size: 1em;
+}
+#logoSimplon{
+	margin-top: 8px;
+	margin-left: 24px;
+	width: 3em;
+	height: 3em;
+	margin-top: 0,5em;
+}
