@@ -1,28 +1,266 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	
 	<link rel="stylesheet" type="text/css" href="onepage.css">
 	<title>Simplon Cannes 2018</title>
 	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/css?family=Rammetto+One|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro|Quicksand" rel="stylesheet">
 </head>
 <body>
 	<header> <!-- Barre de menu en "fixed" -->
-		<div id="menuHaut">
-			<img src="logo.png" id="logoSimplon">
-			<h3 id="simplon">SIMPLON <small>Cannes Frayère 2018</small></h3>
-
+<div id="menuHaut"><!--Barre de navigation-->
 			<ul id="nav">
-				<li><a href="">bouton</a></li>
-				<li><a href="">bouton</a></li>
-				<li><a href="">bouton</a></li>
-				<li><a href="">bouton</a></li>
-				<li><a href="">bouton</a></li>
-				<li><a href="">bouton</a></li>
-			</ul>	
+				<li>
+					<select id="apropos"> <!--Bouton déroulant-->
+						<option><a href="">A propos</a></option>
+						<option>Qui sommes nous ?</option>
+						<option>Le staff</option>
+					</select>
+				</li>
+				<li>
+					<select id="formation"><!--Bouton déroulant-->
+						<option>Notre formation</option>
+						<option><a href="">Programme</a></option>
+						<option><a href="">Projets pédagogiques terminés (Portfolio)</a></option>
+						<option><a href="">Projets pédagogiques à venir</a></option>
+					</select>
+				</li>
+				<li class="li3"><a href="">Nos apprenants</a></li><!--Boutons navigation-->
+				<li><a href="">Evenements</a></li>
+				<li><a href="">Partenaires</a></li>
+			</ul>
+			<ul id="nav2">
+				<li><a href="">Contacts</a></li><!--Boutons navigation-->
+				<li><a href="">Echanges professionnels</a></li>
+			</ul>
 		</div>	
 	</header>
 
+    
+
+    <!-- DEBUT ANNE -->
+
+ <!-- Acceuil -->
+  <section id="acceuil">
+
+    <div id="content">
+      <h1>Développeur.se web Simplon Cannes Frayère 1</h1> La formation Développeur.se Web se déroule sur 7 mois dont 1 mois de stage en entreprise. <br />Cette formation vise des personnes en recherche d’emploi en les formant dans un domaine innovant qui leur donnera ainsi accès aux métiers du numérique.
+    </div>
+
+    <figure>
+      <img class="anne" src="simplon.JPG" alt="promo simplon" />
+    </figure>
+
+  </section>
+
+  <!---A propos -->
+
+  <div id="body">
+
+  <div id="simplo">
+
+    <h2 id="scf">A propos de Simplon Cannes Frayère :</h2>
+
+    <section id="apropo">
+
+      <div id="qui">
+        <h4>Qui sommes-nous</h4> Nous sommes un réseau de fabriques numériques et inclusives en France et à l’étranger. Nous avons formé plus de 1500 apprenants aux métiers du numérique depuis 2013.
+        <br /><br /> Nous sommes une entreprise sociale et solidaire. Nous voulons faire du numérique un véritable levier d’inclusion et révéler des talents parmi des publics peu représentés dans le secteur.
+        <br /><br /> La formation développeur.se web Simplon Cannes Frayère s’adresse principalement aux habitants de l’agglomération de Cannes Pays de Lérins. L’école est implantée à Cannes la Bocca.
+      </div>
+
+      <div id="staff">
+        <h4>Equipe</h4>
+        <ul>
+          <li>Laurent Andrieux, <br />Chargé de promotion, <br />landrieux@simplon.co</li>
+          <br />
+          <li>Rémi Lanney, <br />Formateur référent, <br />rlanney@simplon.co</li>
+          <br />
+          <li>Cyril Enrici, <br />Fromateur expert <br /></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <div>
+    <a href="" /><img src="flash.png" id="fleche" alt="fleche" /></a>
+  </div>
+
+  <!-- formation-->
+
+  <section id="formatio">
+
+<h2 id="titre">Notre formation Développeur.se web :</h2>
+
+<div id="box">
+
+    <div id="one">
+
+      <h4>Programme :</h4>
+
+      <ul>
+        <li>
+          <h5>La prairie :</h5>Introduction au secteur du numérique, au développement web <br /> Découverte des langages back-end et front-end
+        </li>
+        <li>
+          <h5>Les fondamentaux :</h5>Introduction aux écosystèmes, à la veille, aux objets connectés, à l'environnement Linux et aux licences opensource <br />Organiser une veille et gérer un projet
+        </li>
+        <li>
+          <h5>Back-End :</h5>Découvrir et approfondir l'algorithmie<br />Concevoir et administrer une base de données <br />Développer, tester et déployer un site web, en s'appuyant sur un langage et un framework back <br />Sécuriser un site web
+        </li>
+        <li>
+          <h5>Insertion professionnelle :</h5>Technique de recherche d'emploi <br />Expression orale et écrite <br />Entraînement au job dating, meetup...<br />Tests techniques et outillage du/ de la développeur.se
+        </li>
+      </ul>
+
+    </div>
+
+    <div id="two">
+      <h4>Projets pédagogiques terminés :</h4>
+
+    </div>
+
+    <div id="three">
+      <h4>Projets pédagogiques en cours et à venir :</h4>
+
+    </div>
+
+</div>
+  </section>
+
+  <div>
+    <a href="" /><img src="flash.png" id="fleche" alt="fleche" /></a>
+  </div>
+
+  <!-- fin anne -->
+
+<!-- flo -->
+  <div class="secoform">
+	<form action="post">
+		<h3>Se connecter :</h3>
+		<br>
+		<label for="nom">Identifiant / SIRET :</label><br>
+		<input type="text" name="nom"><br><br>
+		<label for="mdp">Mot de passe :</label><br>
+		<input type="password" name="mdp"><br><br>
+		<input type="submit" name="login" value="Se connecter"><br><br>
+	</form>
+	</div>
+
+	<!-- fin flo -->
+
+	<!-- Anna - Apprenants -->
+
+	<section class="students">
+
+		<div>
+			<h2>Nos apprenants</h2>
+			<a href=""><img src="flash.png" alt="link to the top"></a>
+		</div>
+
+		<div class="container">
+		  <br>
+		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    <ol class="carousel-indicators">
+		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		      <li data-target="#myCarousel" data-slide-to="1"></li>
+		      <li data-target="#myCarousel" data-slide-to="2"></li>
+		      <li data-target="#myCarousel" data-slide-to="3"></li>
+		      <li data-target="#myCarousel" data-slide-to="4"></li>
+		    </ol>
+		    <div class="carousel-inner" role="listbox">
+		      <div class="item active">
+		        <div class="text">
+		          <h2>simplonien 1</h2>
+		          <br>
+		          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident. Quis autem vel eum iure reprehenderit. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit.</p>
+		        </div>
+		        <img src="img/photo1.png" alt="simplonien 1 photo">
+		      </div>
+		      <div class="item">
+		        <div  class="text">
+		          <h2>simplonien 2</h2>
+		          <br>
+		          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident. Quis autem vel eum iure reprehenderit. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit.</p>
+		        </div>
+		        <img src="img/photo2.png" alt="simplonien 2 photo">
+		      </div>
+		      <div class="item">
+		        <div  class="text">
+		          <h2>simplonien 3</h2>
+		          <br>
+		          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident. Quis autem vel eum iure reprehenderit. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit.</p>
+		        </div>
+		        <img src="img/photo3.png" alt="simplonien 3 photo">
+		      </div>
+		      <div class="item">
+		        <div class="text">
+		          <h2>simplonien 4</h2>
+		          <br>
+		          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident. Quis autem vel eum iure reprehenderit. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit.</p>
+		        </div>
+		        <img src="img/photo4.png" alt="simplonien 4 photo">
+		      </div>
+		      <div class="item">
+		        <div class="text">
+		          <h2>simplonien 5</h2>
+		          <br>
+		          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident. Quis autem vel eum iure reprehenderit. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit.</p>
+		        </div>
+		        <img src="img/photo5.png" alt="simplonien 5 photo">
+		      </div>
+		    </div>
+		    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		      <span class="sr-only">Previous</span>
+		    </a>
+		    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		      <span class="sr-only">Next</span>
+		    </a>
+		  </div>
+		</div>
+
+	</section>
+
+	<!-- Anna - Evènements -->
+
+	<section class="events">
+
+		<div>
+			<h2>Evènements</h2>
+			<a href=""><img src="flash.png" alt="link to the top"></a>
+		</div>
+
+		<div class="container">
+		  	<br>
+		  	<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+			    <ol class="carousel-indicators">
+			      <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+			      <li data-target="#myCarousel2" data-slide-to="1"></li>
+			    </ol>
+		    	<div class="carousel-inner">
+			        <div class="item active">
+			            <img src="img/event1.jpg" alt="event 1 photo">
+			        </div>
+			        <div class="item">
+			            <img src="img/event2.jpg" alt="event 2 photo">
+			        </div>
+				    <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+				        <span class="glyphicon glyphicon-chevron-left"></span>
+				        <span class="sr-only">Previous</span>
+				    </a>
+				    <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+				        <span class="glyphicon glyphicon-chevron-right"></span>
+				        <span class="sr-only">Next</span>
+				    </a>
+		  		</div>
+			</div>
+		</div>
+		
+	</section>
+    
 
 	<!--  START LUCIE -->
 	<section class="lucie">
@@ -69,6 +307,8 @@
 	</div>
 	</section>
 
+	</div>
+
 	<div class="partenaires">
 		<img src="img/part1.png" width="120px" height="90px">
 		<img src="img/part2.jpg" width="120px" height="90px">
@@ -95,7 +335,9 @@
 	</footer>
 		
 	<!-- END LUCIE -->
-		
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		
 
 </body>
 </html>

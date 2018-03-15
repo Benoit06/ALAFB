@@ -1,29 +1,93 @@
+* {
+	margin : 0;
+	padding: 0;
+}
+
+#body {
+	width: 80%;
+	margin : auto;
+}
+
+
+/*flo*/
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Maven Pro', sans-serif;
+	padding-bottom : 10px;
+}
+
+p{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.secoform{
+	box-sizing: border-box;
+width: 100%;
+	margin: auto;
+	padding-left: 35%;
+	border: 1px solid #777777;
+	background-color: #f7f7f7;
+	margin-top: 20px;
+}
+
+label{
+	color: #ed0036;
+	font-family: 'Quicksand', sans-serif;
+}
+
+/*benoit*/
 #menuHaut{
 	background-color: black;
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
 }
 #simplon{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: bold;
 	color: white;
 	margin-left: -6%;
 }
-#nav{
+#nav, #nav2{
 	margin-top: 20px;
 	margin-right: 5%;
 	width: 65%;
 	display: flex;
 	list-style: none;
-	justify-content: space-between;
 	text-decoration: none;
 }
-#nav li a {
+#proposbo{
+	border-left: none;
+}
+#apropos{
+	width: 98px;
+}
+#formation{
+	width: 165px;
+}
+#nav li, #nav2 li{
+	padding-right: 20px;
+	border-left: solid #ed0036;
+}
+#nav li:first-child, #nav2 li:first-child{
+	border-left: none;
+}
+#nav li select, #nav2 li select{
+	margin-left: 20px;
+	border: none;
+	background-color: black;
+	color: white;
+	font-weight: 'Maven Pro', sans-serif;
+	font-weight: bold;
+	padding-right: 1px;
+}
+#nav li a, #nav2 li a{
+	margin-left: 20px;
 	display: inline-flex;
 	text-decoration: none;
 	list-style: none;
 	color: white;
-	font-family: 'Rammetto One', cursive;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: bold;
 	font-size: 1em;
 }
 #logoSimplon{
@@ -33,18 +97,207 @@
 	height: 3em;
 	margin-top: 0,5em;
 }
+#nav2{
+	padding-left: 13%;
+	margin-top: 20px;
+	margin-right: 1%;
+	width: 65%;
+	display: flex;
+	list-style: none;
+	text-decoration: none;
+}
+.li3{
+	width: 150px;
+}
+/*Anne -----------------------------------------------------------*/
+
+/*Acceuil*/
+#acceuil {
+  top: 10px;
+  position: relative;
+  justify-content: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#acceuil #content {
+  position: absolute;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 15px;
+}
+
+#content {
+  box-sizing:border-box;
+}
+
+img.anne {
+  border-radius: 5px;
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+/*--------------------------*/
+#simplo {
+	margin-top : 80px ;
+	border: 1px solid #777777;
+  background-color: #f7f7f7;
+}
+
+#scf {
+	padding : 10px 10px 30px 10px;
+}
+
+#apropo {
+	margin : 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#qui {
+  width: 55%;
+  padding: 10px;
+}
+
+#staff {
+  width: 35%;
+  padding: 10px;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+#titre {
+  padding: 10px;
+  padding-top : 100px;
+}
+
+#box {
+box-sizing: border-box;
+width : 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+
+#one, #two, #three {
+  width: 30%;
+  padding: 10px;
+  	border: 1px solid #777777;
+}
+
+#two {
+  background-color: #f7f7f7;
+}
+
+#formatio ul {
+  list-style: none;
+  padding: 20px;
+  padding-top : 0px;
+}
+
+#formatio h5 {
+  text-indent: -15px;
+  margin-bottom: 5px;
+}
+
+#fleche {
+  width: 40px;
+  height: 40px;
+  float: right;
+  padding : 20px;
+}
+
+/* Anna */
+
+.students>div:first-child, .events>div:first-child {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.students>div:first-child a, .students>div:first-child img, .events>div:first-child a, .events>div:first-child img {
+	height: 30px;
+	width: 30px;
+}
+
+#myCarousel p {
+	color: white;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+#myCarousel h2 {
+	text-align: center;
+	color: white;
+}
+
+#myCarousel .item {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#myCarousel .item {
+	background-image: url("img/computers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.students>h2, section.events>h2 {
+	text-align: center;
+}
+
+#myCarousel div.text {
+	width: 500px; 
+	height: 500px;
+	display: inline-block; 
+	padding: 50px 50px 0 150px;
+}
+
+.students .container, .events .container {
+	height: 400px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#myCarousel .carousel-inner, #myCarousel2 .carousel-inner{
+    height:100%;
+}
+
+#myCarousel.carousel.slide, #myCarousel2.carousel.slide {
+	height: 400px;
+}
+
+.students img {
+	display: inline-block !important;
+	margin-left: 70px;
+}
+
+.events img {
+	width: 100%;
+}
+
 
 /*START LUCIE*/
 .lucie { /*formulaire part */
 	display: flex;
-	justify-content: space-between;
-	padding-left: 20em;
-
+	justify-content: space-around;
+	margin-top: 20px;
+box-sizing: border-box;
+width: 100%;
 }
 
 
 .lucie .right { /* adresse */
-	padding-right: 18px;
+	
+	margin-top: 20px;
 }
 
 .lucie .right .map { /* goole maps lien */
@@ -73,7 +326,7 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	width: 94.5em;
+	width: 100%;
 	height: 4em;
 	background: black;
 }
